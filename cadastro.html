@@ -1,0 +1,56 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="funcoes.js"></script>
+	<link rel="stylesheet" href="estilo.css" type="text/css"/>
+		<script type="text/javascript">
+	function Cadastro() {
+		window.location = "concluido.html";
+	}
+	</script>
+</head>
+<body><body>
+	<div class="pagina">
+		<div class="boxtopo">
+ 			 <div class="suaconta">
+				<div class="tagtopo" style="margin: 0px 0px; font-size:14px;">Abra sua conta</div>
+			</div>
+ 			 <div class="investimento">
+				<div class="tagtopo" style="margin: 0px 0px; font-size:14px;">Investimentos</div>
+			 </div>
+ 		 	<div class="planos">
+				<div class="tagtopo" style="margin: 3px 0px; font-size:13px;">Planos</div>
+			</div>
+			<div class="fake-input">
+				<p>Acesse sua conta</p>
+    				<input type="text" value = "Digite seu CPF" style="font-size:9px;" /> 
+    				<input type="submit" value="Acessar" />
+			</div>
+		</div>
+			<div class="boxform">
+			<form id="frmCadastro">
+				<h1>Voçê está a um passo de criar sua conta Training Banking</h1>
+				<br>
+				<table>
+					<tr><td><label for="Nome"><strong>Nome:</strong></label></td></tr>
+					<tr><td><input type="text" id="txtNome" size="80" /></td></tr>
+					<tr><td><label for="Cpf"><strong>CPF:</strong></label></td></tr>
+					<tr><td><input type="text" id="txtCpf" size="20" /></td></tr>
+					<tr><td><label for="Email"><strong>Email:</strong></label></td></tr>
+					<tr><td><input type="text" id="txtEmail" size="80" /></td></tr>
+					<tr><td><label for="Telefone"><strong>Telefone:</strong></label></td></tr>
+					<tr><td><input type="text" id="txtTelefone" size="20" /></td></tr>
+					<tr><td><label for="Endereco"><strong>Endereço:</strong></label></td></tr>
+					<tr><td><input type="text" id="txtEndereco" size="80" /></td></tr>
+					<tr><td><br><input type="submit" value="Salvar" onClick="Cadastro()"/></td></tr>
+				</table>
+			</form>
+			</div>
+			<div class="boxform">
+			</div>
+		<div class="boxrodape">
+		</div>
+	</div>
+</body>
+</html>
