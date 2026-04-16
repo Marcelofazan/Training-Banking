@@ -1,6 +1,6 @@
-# Training-Banking
+# JSVanilha-CSS-Training-Banking
 
-Exemplo de criação de Layout CSS e armazenamento LocalStorage 
+Exemplo de criado para Vaga FrontEnd de um Layout CSS e armazenamento LocalStorage 
 
 ## Competências
 
