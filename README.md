@@ -1,4 +1,4 @@
-# JSVanilha-CSS-Training-Banking
+# Training-Banking-JSVanilha-CSS
 
 Exemplo criado para Vagas de emprego de um Layout CSS e armazenamento LocalStorage 
 
